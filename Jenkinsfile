@@ -11,6 +11,7 @@ pipeline {
         stage('stage2') {
           steps {
             echo 'Hello Stege2'
+            sh 'sleep 2'
           }
         }
         stage('stage3') {
